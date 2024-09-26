@@ -35,9 +35,10 @@ body {
 #colors-list {
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
 }
 
-#colors-list div {
+#colors-list li {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -47,6 +48,12 @@ body {
 
 .selected {
   border: 2px solid black;
+}
+
+.selected-Parent {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 /* colors */
